@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+.arriba {
+  background-color: #f0f0f0;
+  padding: 15px;
+}
+.logo_tec {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+}
+.icono_redes {
+  display: inline-block;
+  vertical-align: top;
+  width: 86%;
+  text-align: right;
+  padding-top: 50px;
+}
+.icono_redes img {
+  width: 50px;
+}
+.icono_redes a {
+  margin-right: 15px;
+}
+.menu {
+  text-align: center;
+  padding: 10px;
+}
+.menu a {
+  border-radius: 5px;
+  border: 1px #800000 solid;
+  padding: 10px 30px;
+  background-color: #800000;
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.menu a:hover {
+  background-color: white;
+  color: #800000;
+}
+.menu a:nth-child(5) {
+  margin-right: 15px;
+}
+.info {
+  text-align: center;
+  padding-top: 15px;
+}
+.info img {
+  width: 550px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+.bienvenida {
+  text-align: justify;
+  display: inline-block;
+  vertical-align: top;
+  width: 600px;
+}
+.bienvenida h1 {
+  color: #800000;
+}
+.bienvenida h2 {
+  color: #cc9900;
+  font-size: 22px;
+}
+.ubicacion h2 {
+  color: #cc9900;
+  font-size: 22px;
+  text-align: center;
+}
+.ubicacion iframe {
+  width: 100%;
+  height: 300px;
+}
+.abajo {
+  background-color: #800000;
+  color: white;
+  padding: 20px;
+}
+.info_abajo {
+  display: inline-block;
+  vertical-align: top;
+  width: 86%;
+  text-align: right;
+  line-height: 45px;
+}
+.abajo a {
+  text-decoration: underline;
+  color: white;
+}
